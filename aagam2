@@ -5,8 +5,8 @@ int main() {
     int a, b, max, lcm;
 
     printf("Enter two positive integers: ");
-    scanf("%d", &a);
-    scanf("%d", &b);
+    scanf("%d %d", &a, &b);
+    
 
     
     max = (a > b) ? a : b;
